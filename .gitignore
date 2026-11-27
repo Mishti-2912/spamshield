@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Project artifacts (generated, not committed)
+models/*.joblib
+models/*.json
+outputs/*.png
+outputs/*.txt
+data/spam.csv
+
+# Keep empty folders tracked
+!models/.gitkeep
+!outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

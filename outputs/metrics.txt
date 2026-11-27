@@ -1,0 +1,24 @@
+==================================================
+            MODEL EVALUATION RESULTS
+==================================================
+Spam decision threshold : 0.23
+Accuracy : 0.9839  (98.39%)
+Precision: 0.9517
+Recall   : 0.9262
+F1-score : 0.9388
+--------------------------------------------------
+Confusion Matrix (rows = true, columns = predicted):
+  Legitimate -> [959   7]
+  Spam       -> [ 11 138]
+--------------------------------------------------
+Classification Report:
+                  precision    recall  f1-score   support
+
+Legitimate (ham)     0.9887    0.9928    0.9907       966
+            Spam     0.9517    0.9262    0.9388       149
+
+        accuracy                         0.9839      1115
+       macro avg     0.9702    0.9595    0.9647      1115
+    weighted avg     0.9837    0.9839    0.9838      1115
+
+==================================================
